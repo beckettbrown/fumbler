@@ -1,0 +1,482 @@
+[
+  {
+    "attackStyle": "Melee",
+    "name": "Overextend",
+    "effect": "You provoke an AOO from all adjecent oppenents"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Aching Back",
+    "effect": "You are fatigued"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Upset Tummy",
+    "effect": "You are sickened for 1d4 rounds"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Backblast",
+    "effect": "The attack hits you and is a critical threat. You must roll to confirm the crit hit"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Ciritcal Mistake",
+    "effect": "The attack hits you and is a critical threat. You must roll to confirm the crit hit"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Whoops!",
+    "effect": "You are knocked prone"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Out Of Position",
+    "effect": "You cannot use this attack for 1 round"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Mind Drain",
+    "effect": "You take 1d4 points of damage to int,Wis, or Cha (determined randomly)"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Off Balance",
+    "effect": "You take a -4 penalty on all attack rolls for 1 round"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Friendly Fire",
+    "effect": "Your attack hits your ally closest to the target"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Broke A Nail",
+    "effect": "You take 1d4 points of damage and you cannot use this attack until healed."
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Power Drain",
+    "effect": "You lose one prepared spell or spell slot (determined randomly)"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Pin Prick",
+    "effect": "You take 1 point of bleed"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Spilled Ammo",
+    "effect": "You ammo falls from its container and takes 1d6 rounds to gather uo"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Just A Taste",
+    "effect": "You attack hits an ally adjacent to you or the target"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Tiring Spell",
+    "effect": "You are fatigued"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Wide Open",
+    "effect": "You are flat-footed for 1 round"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Cracked",
+    "effect": "Your weapon takes 1d6 points of damage ignoring hardness"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Fist Meets Face",
+    "effect": "The attack hits you and is a critical threat. You must roll to confirm the crit hit"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Distance Rift",
+    "effect": "You are teleported the nearest square adjacent to the target"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Pulled Muscle",
+    "effect": "You take 1d4 points of Str damage"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Awkward Attack",
+    "effect": "You take a -2 penalty to AC for 1d4 rounds"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "I Bit My Tug",
+    "effect": "You take 1 point of bleed"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Arcane Fire",
+    "effect": "You take 2d6 points of fire damage"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Fling",
+    "effect": "You drop your weapon and it lands 1d6 squares away in a random direction"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Head Rush",
+    "effect": "You are sickened for 1d4 rounds"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Overextend",
+    "effect": "You provoke an AOO from all adjecent oppenents"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Reflection",
+    "effect": "The spell hits you instead of the target (normal saves apply)"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Backswing",
+    "effect": "The attack deals damage to you instead of the target"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Wide Open",
+    "effect": "You are flat-footed for 1 round"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Tripped",
+    "effect": "You are knocked prone"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Tangled",
+    "effect": "You become entangled in your gear until you spend a standard action to free youself"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "I Told You It Was Sharp",
+    "effect": "You take 1d6 points of bleed"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Klutz",
+    "effect": "You drop your weapon and it lands 1d6 squares away in a random direction"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Stop Hitting Yourself!",
+    "effect": "The attack deals damage to you instead of the target"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Not Me, You Fool!",
+    "effect": "Your attack hits your ally closest to the target"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Spinning Swing",
+    "effect": "You are sickened for 1d4 rounds"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Nicked",
+    "effect": "You take 1 point of bleed"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Twisted",
+    "effect": "You become entangled in your gear until you spend a standard action to free youself"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Apprentice Move",
+    "effect": "Reroll attack against creature nearest the target (exclude yourself)"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Slipped",
+    "effect": "You are knocked prone"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Backfire",
+    "effect": "The attack deals damage to you instead of the target"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Bruised Ego",
+    "effect": "You can attack no other target for 1d4 rounds(or until the target is dead)"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Nose Bleed",
+    "effect": "You take 1 point of bleed"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Broken Blade",
+    "effect": "Your weapon is destroyed(Ref negates). Magic weapons use their own save bonus"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "My Spleeny Bits!",
+    "effect": "You take 1 point of Con damage"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Frustration",
+    "effect": "You take a -4 penalty on all attack rolls for 1 round"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Monster Rift",
+    "effect": "Your spell is converted to a summon monster spell of the same level. The monster attacks you."
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Too Much Stuff",
+    "effect": "You become entangled in your gear until you spend a standard action to free youself"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Sprain",
+    "effect": "You take 1d4 points of Dex damage"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Bleeding Fist",
+    "effect": "You take 1d6 points of bleed"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Vertigo",
+    "effect": "You are sickened for 1d4 rounds"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "This Sword Is Heavy",
+    "effect": "You are fatigued"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Errant Aim",
+    "effect": "Reroll attack against creature nearest the target (exclude yourself)"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Awkward Attack",
+    "effect": "You take a -2 penalty to AC for 1d4 rounds"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Bleeding Eyes",
+    "effect": "You take 1d6 points of bleed"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Butterfingers",
+    "effect": "You drop your weapon."
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Snapped String",
+    "effect": "If attack was made with a bow or crossbow, the string breaks and requires 1d3 rounds to fix"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Torn Muscle",
+    "effect": "You take 1 point of Str drain (Fort negates.)"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Magic Fatigue",
+    "effect": "You cannot cast any spells for 1 rounds"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Strain",
+    "effect": "You take 1d4 points of Dex damage"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Tied Up",
+    "effect": "You become entangled in your gear until you spend a standard action to free youself"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Wide Open",
+    "effect": "You are flat-footed for 1 round"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Cold Snap",
+    "effect": "You take 2d6 points of cold damage"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Awkward Attack",
+    "effect": "You take a -2 penalty to AC for 1d4 rounds"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "You'Ll Shoot Your Eye Out",
+    "effect": "The attack hits you and is a critical threat. You must roll to confirm the crit hit"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Tiring Attack",
+    "effect": "You are fatigued"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Acidic Backlash",
+    "effect": "You take 2d6 points of acid damage"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Notched",
+    "effect": "Your weapon takes 1d6 points of damage ignoring hardness"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Notched Fingers",
+    "effect": "You take 1d6 points of bleed"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Muscle Tear",
+    "effect": "You take 1d4 points of Str damage"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Electrical Feedback",
+    "effect": "You take 2d6 of electricity damage"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Sorry",
+    "effect": "Your attack hits an ally adjecent to you"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Lost The Target",
+    "effect": "You take a -4 penalty on all attack rolls for 1 round"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Sprain",
+    "effect": "You take 1d4 points of Dex damage"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Weakened",
+    "effect": "you take a -2 penalty to all of your spells DCs for 1d4 minutes"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Catch You Breath",
+    "effect": "You can only take a move action"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Wrong Weapon",
+    "effect": "If you made a thrown attack, you throw  random object from your gear"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Got Too Close",
+    "effect": "Your attack hits the target but the target may start a grapple against you for free"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "You Made Him Stronger",
+    "effect": "The target gains a +8 enhancement bonus to Str for 1d4 rounds"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "All Or Nothing",
+    "effect": "You take a -1 penality on attack rolls until you score a critical hit"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Closer To The Ear",
+    "effect": "You are deafened until healed (DC 15 Heal Check)"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Pins And Needles",
+    "effect": "You are sickened for 1d4 rounds"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Why Me?",
+    "effect": "You provoke an AOO from all adjecent oppenents"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Surrounded By Foes",
+    "effect": "Your attack hits an ally within reach and is a critical threat. You must roll to confirm the crit"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Insecure",
+    "effect": "You take a -1 penality on attack rolls until you score a critical hit"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Great Roar",
+    "effect": "You are deafened until healed (DC 15 Heal Check)"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Error!",
+    "effect": "The attack deals deals damage to you instead of the target"
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Armor Smash",
+    "effect": "Your attack deals damage to your armor"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Lost Grip",
+    "effect": "You can only take a move action next round"
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Battered",
+    "effect": "You take a -2 penalty on skill checks and saves for 1d4 hours"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Unexpected Blast",
+    "effect": "The spell affects all targets within 30 feet of you. You are immune to this effect."
+  },
+  {
+    "attackStyle": "Melee",
+    "name": "Bonk",
+    "effect": "You are stunned for 1 round (fort negates)"
+  },
+  {
+    "attackStyle": "Ranged",
+    "name": "Shot Your Foot",
+    "effect": "You take 1d2 points of Dex damage and your speed is reduced by half until healed."
+  },
+  {
+    "attackStyle": "Natural",
+    "name": "Overexertion",
+    "effect": "You are exhausted (Fort negates)"
+  },
+  {
+    "attackStyle": "Magic",
+    "name": "Side Effect",
+    "effect": "one of your magic items permanently gains a random drawback (DMG 273)"
+  }
+]

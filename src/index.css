@@ -1,13 +1,165 @@
+/* App.css */
+
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4e9d8; /* Parchment-like background */
+  font-family: 'Times New Roman', serif; /* Traditional font for fantasy feel */
+  color: #3a2718; /* Dark brown text for an old ink look */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
 }
+
+.buttons-container {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #8b5f2e; /* Deep, rich wood brown */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a47035; /* Lighter brown for hover effect */
+}
+
+.fumble-display {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 2px solid #8b5f2e;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fumble-display h2 {
+  margin-bottom: 10px;
+  color: #6b2d1d; /* Dark red for headings */
+}
+
+.fumble-display p {
+  line-height: 1.6;
+}
+
+/* Additional styles for the form */
+.add-fumble-form {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #8b5f2e; /* Match the theme color */
+  padding: 20px;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+
+.add-fumble-form input,
+.add-fumble-form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #6b2d1d;
+  background-color: #f4e9d8;
+  color: #3a2718;
+  font-size: 16px;
+}
+
+.add-fumble-form button {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #6b2d1d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.add-fumble-form button:hover {
+  background-color: #502f1a;
+}
+
+.dropdown-style {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #6b2d1d;
+  background-color: #f4e9d8;
+  color: #3a2718;
+  font-size: 16px;
+  -webkit-appearance: none; /* Removes default styling on some browsers */
+  -moz-appearance: none;    /* Removes default styling on some browsers */
+  appearance: none;         /* Removes default styling on some browsers */
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #8b5f2e;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #8b5f2e;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
